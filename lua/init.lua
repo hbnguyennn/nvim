@@ -11,4 +11,4 @@ require "user.toggleterm"
 require "user.impatient"
 require "user.whichkey"
 require "user.cmp"
-
+require "user.filetype"
