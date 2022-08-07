@@ -10,6 +10,7 @@ call plug#begin()
   Plug 'akinsho/bufferline.nvim'                                                                                                                                                                                                                                                               
   Plug 'moll/vim-bbye'                                                                                                                                                                                                                                                                         
   Plug 'lewis6991/impatient.nvim'                                                                                                                                                                                                                                                              
+  Plug 'xiyaowong/nvim-cursorword'
 
   Plug 'sonph/onehalf', { 'rtp': 'vim' }                                                                                                                                                                                                                                                       
   Plug 'dracula/vim', { 'as': 'dracula' }                                                                                                                                                                                                                                                      
@@ -81,5 +82,7 @@ lua require('init')
 "   autocmd BufRead,BufNewFile *.config.kpp   set ft=asm ignorecase                                                                                                                                                                                                                              
 "   autocmd BufRead,BufNewFile *.io           set iskeyword+=[,],.                                                                                                                                                                                                                               
 "augroup END
+"
+hi default CursorWord cterm=underline gui=underline
 
 
