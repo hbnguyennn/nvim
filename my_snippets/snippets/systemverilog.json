@@ -11,9 +11,9 @@
     "description": "If statement"
   },
   "if-else": {
-    "prefix": "ife",
+    "prefix": "__ife",
     "body": [
-      "if (${1}) begin",
+      "if (${1})\nbegin",
       "\n\t${2}",
       "\nend",
       "\nelse begin",
@@ -23,13 +23,13 @@
     "description": "If-else statement"
   },
   "else-if": {
-    "prefix": "eif",
-    "body": ["else if (${1}) begin", "\n${0}", "\nend"],
+    "prefix": "__eif",
+    "body": ["else if (${1})\nbegin", "\t${0}", "end"],
     "description": "else-if statement"
   },
   "else": {
-    "prefix": "el",
-    "body": ["else begin", "\n${0}", "\nend"],
+    "prefix": "__el",
+    "body": ["else\nbegin", "\t${0}", "end"],
     "description": "else-if statement"
   },
   "while": {
