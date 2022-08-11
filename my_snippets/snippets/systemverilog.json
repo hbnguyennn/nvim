@@ -98,6 +98,13 @@
     "body": ["task ${1:name}(${2});", "\n\t${0}", "\nendtask: $1"],
     "description": "Task snippet"
   },
+
+  "mytask": {
+    "prefix": "__task",
+    "body": ["task ${1:type_parent}::${2:name}(${3});", "\t${0}", "endtask: $2"],
+    "description": "Task snippet"
+  },
+
   "Initial Begin": {
     "prefix": "ini",
     "body": ["initial begin\n\t${0}\nend"],
