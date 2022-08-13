@@ -1,4 +1,6 @@
 --require "user.plugins"
+require "user.alpha"
+require "user.project"
 require "user.options"
 require "user.keymaps"
 require "user.nvim-tree"

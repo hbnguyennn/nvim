@@ -5,6 +5,9 @@ call plug#begin()
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'kyazdani42/nvim-tree.lua'
  "Plug 'preservim/nerdtree'
+ 
+  Plug 'goolord/alpha-nvim'
+  Plug 'ahmedkhalf/project.nvim'
 
   Plug 'lukas-reineke/indent-blankline.nvim'
   Plug 'nvim-lualine/lualine.nvim'
