@@ -64,6 +64,7 @@ nvim_tree.setup {
         { key = "v", cb = tree_cb "vsplit" },
         { key = "s", cb = tree_cb "split" },
         { key = "C", cb = tree_cb "cd" },
+        { key = "u", action = "dir_up" },
       },
     },
   },
