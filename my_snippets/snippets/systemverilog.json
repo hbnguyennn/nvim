@@ -148,9 +148,9 @@
       "prefix":"__function",
       "body" : [
          "function ${1:class}::${2:function_name}(${3:inout});",
-         "  ${0}",
+         "\t${0}",
          "endfunction : ${2:function_name}"
       ],
-      "description":"begin-end"
+      "description":"custom-function"
    }
 }
