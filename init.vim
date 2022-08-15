@@ -11,7 +11,7 @@ call plug#begin()
 
   Plug 'lukas-reineke/indent-blankline.nvim'
   Plug 'nvim-lualine/lualine.nvim'
-  Plug 'akinsho/bufferline.nvim'
+  Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
   Plug 'moll/vim-bbye'
   Plug 'lewis6991/impatient.nvim'
   Plug 'xiyaowong/nvim-cursorword'
