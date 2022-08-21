@@ -167,7 +167,7 @@
          "endfunction : ${1:function_name}"
       ],
       "description":"custom-function"
-   }
+   },
    "function": {
       "prefix":"__function",
       "body" : [
