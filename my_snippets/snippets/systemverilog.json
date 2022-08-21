@@ -11,13 +11,13 @@
   },
   "if": {
     "prefix": "__if_with_comment",
-    "body": ["if (${1})\nbegin", "\n   ${0}", "\nend // (${1})"],
+    "body": ["if (${1})\nbegin", "\t${0}", "end // if (${1})"],
     "description": "If statement"
   },
 
   "if_non_comemt": {
     "prefix": "__if",
-    "body": ["if (${1})\nbegin", "   ${0}", "\nend"],
+    "body": ["if (${1})\nbegin", "\t${0}", "end"],
     "description": "If statement"
   },
   "if-else": {
