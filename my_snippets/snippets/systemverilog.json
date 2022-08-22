@@ -2,7 +2,7 @@
   "ifndeff": {
     "prefix": "__ifndef",
     "body": [
-       "`ifndef ${1: name})", 
+       "`ifndef ${1: name}", 
        "`define ${1}", 
        "\n\n${0}",
        "`endif // ${1}"
