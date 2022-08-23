@@ -9,13 +9,14 @@ ft.setup({
          V        = "systemverilog",
          force    = "systemverilog",
          kpp      = "systemverilog",
+         log      = "systemverilog",
       },
       --literal = {
       --   --set filetype for files named
       --   --Mybackkasdfasdf = "lua"
       --},
-      --complex = {
-      --   ["*.sv.kpp"] = "systemverilog",
-      --},
+      complex = {
+         ["audit.*"] = "perl",
+      },
    },
 })
