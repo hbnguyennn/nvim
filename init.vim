@@ -7,7 +7,7 @@ call plug#begin()
  "Plug 'preservim/nerdtree'
  
   Plug 'goolord/alpha-nvim'
-  Plug 'ahmedkhalf/project.nvim'
+ "Plug 'ahmedkhalf/project.nvim'
 
   Plug 'lukas-reineke/indent-blankline.nvim'
   Plug 'nvim-lualine/lualine.nvim'
