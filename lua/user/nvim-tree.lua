@@ -19,7 +19,7 @@ nvim_tree.setup {
     root_folder_modifier = ":t",
     icons = {
       glyphs = {
-        default = "■",
+        default = "▹",
         symlink = "□",
         folder = {
           arrow_open = "▽",
