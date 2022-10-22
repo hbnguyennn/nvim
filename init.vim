@@ -2,7 +2,7 @@
 
 call plug#begin()
   Plug 'nvim-lua/plenary.nvim'
-  Plug 'kyazdani42/nvim-web-devicons'
+ "Plug 'kyazdani42/nvim-web-devicons'
   Plug 'kyazdani42/nvim-tree.lua'
  "Plug 'preservim/nerdtree'
  
