@@ -16,7 +16,7 @@ ft.setup({
       --   --Mybackkasdfasdf = "lua"
       --},
       complex = {
-         ["audit.*"] = "perl",
+         ["audit.com"] = "perl",
       },
    },
 })

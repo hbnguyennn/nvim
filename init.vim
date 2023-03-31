@@ -93,4 +93,6 @@ lua require('init')
 "
 hi default CursorWord cterm=underline gui=underline
 
+colorscheme darkplus
+
 
