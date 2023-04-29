@@ -65,7 +65,13 @@ call plug#end()
 
 :set tags=./tags,tags;
 
-lua require('init')
+" check file size before loading plugin
+let aaawc = getfsize(bufname())
+echom aaawc
+
+if aaawc < 1000 * 1024 * 1024
+   lua require('init')
+end
 
 "augroup filetypedetect
 "   autocmd BufRead,BufNewFile *.V, *.bv, *.log  set ft=systemverilog
