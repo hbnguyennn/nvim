@@ -7,6 +7,12 @@
  cargo 
  npm
 
+Need git version 2.4 for using Packer or LazyVim
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Packer install 
+https://github.com/wbthomason/packer.nvim
+
  
 (1) install vimplug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
